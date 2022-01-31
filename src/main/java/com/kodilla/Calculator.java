@@ -2,13 +2,13 @@ package com.kodilla;
 
 class Calculator {
 
-    public void addAToB(int intA, int intB) {
-        int result = intA + intB;
+    public void addAToB(int a, int b) {
+        int result = a + b;
         System.out.println(result);
     }
 
-    public void subtractAFromB(int intA, int intB) {
-        int result = intA - intB;
+    public void subtractAFromB(int a, int b) {
+        int result = a - b;
         System.out.println(result);
     }
 
