@@ -2,12 +2,12 @@ package com.kodilla;
 
 class Calculator {
 
-    public void addAToB(int a, int b) {
+    public void add(int a, int b) {
         int result = a + b;
         System.out.println(result);
     }
 
-    public void subtractAFromB(int a, int b) {
+    public void subtract(int a, int b) {
         int result = a - b;
         System.out.println(result);
     }
@@ -15,7 +15,7 @@ class Calculator {
     public static void main(String[] args) {
 
         Calculator calculator = new Calculator();
-        calculator.addAToB(2, 2);
-        calculator.subtractAFromB(10, 5);
+        calculator.add(2, 2);
+        calculator.subtract(10, 5);
     }
 }
